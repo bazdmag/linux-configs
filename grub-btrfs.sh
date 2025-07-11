@@ -50,4 +50,3 @@ echo "[*] Enabling grub-btrfs services..."
 sudo systemctl enable --now grub-btrfs.path grub-btrfsd.service
 
 echo "[✔] grub-btrfs installed and configured for Timeshift snapshots successfully."
-
