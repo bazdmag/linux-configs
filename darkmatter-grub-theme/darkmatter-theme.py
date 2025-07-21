@@ -16,6 +16,10 @@ import os
 import shutil
 import sys
 
+# Ensure script works relative to its own directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(SCRIPT_DIR)
+
 
 # colors
 C = "\033[0m"     # clear (end)
