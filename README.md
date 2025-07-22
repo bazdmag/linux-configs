@@ -4,4 +4,4 @@ This repository includes the [Cool GRUB Theme Installer](https://github.com/Vand
 
 That component is licensed under the [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-All other code in this repository is authored by me and licensed under the [MIT License](LICENSE), unless otherwise noted.
+All other code in this repository is authored by me and is also licensed under the [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.en.html) unless noted otherwise.
