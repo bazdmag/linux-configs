@@ -6,7 +6,7 @@ REPO_URL="https://github.com/Antynea/grub-btrfs.git"
 REPO_DIR="$HOME/grub-btrfs"
 
 echo "[*] Disabling grub-btrfs services..."
-sudo systemctl disable --now grub-btrfs.path grub-btrfsd.service || true
+sudo systemctl disable --now grub-btrfsd.service || true
 
 echo "[*] Removing old grub-btrfs files..."
 sudo rm -f /usr/bin/grub-btrfs
@@ -47,6 +47,6 @@ echo "[*] Updating GRUB configuration..."
 sudo update-grub
 
 echo "[*] Enabling grub-btrfs services..."
-sudo systemctl enable --now grub-btrfs.path grub-btrfsd.service
+sudo systemctl enable --now grub-btrfsd.service
 
 echo "[✔] grub-btrfs installed and configured for Timeshift snapshots successfully."
