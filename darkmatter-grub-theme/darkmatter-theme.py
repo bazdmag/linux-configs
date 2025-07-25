@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-
-#  ___           _     __  __      _   _           
-# |   \ __ _ _ _| |__ |  \/  |__ _| |_| |_ ___ _ _ 
-# | |) / _` | '_| / / | |\/| / _` |  _|  _/ -_) '_|
-# |___/\__,_|_| |_\_\ |_|  |_\__,_|\__|\__\___|_|   GRUB THEME
-#
-# Version: 2.0                    Written by Vandal (VandalByte)
-#
-# GitLab (repo)   : https://gitlab.com/VandalByte/darkmatter-grub-theme 
-# Github (mirror) : https://github.com/VandalByte/darkmatter-grub2-theme 
 
 # imports
 import subprocess
